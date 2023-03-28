@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amit Semwal</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e991356c71.js" crossorigin="anonymous"></script>
+</head>
+<body>
+     <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo3.png" class="logo" alt="n/w error">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#Portfolio">Connect me</a></li>
+                    <li><a href="#Feedback">More</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav> 
+            <div class="header-text">
+                <p>UI/UX Desinger</p>
+                <h1>Hi, I'm <span>Amit</span><br>From India</h1>
+            </div>
+        </div>
+     </div>
+     <!-- about -->
+     <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col1">
+                    <img src="images/my.jpg" alt="error">
+                </div>
+                <div class="about-col2">
+                     
+                    <h1 class="sub-title">About Me</h1>
+                    <p>
+                        I'm a student of B.Tech Computer Science at Graphic Era University,Dehradun.
+                        I have a goal to work for an organization where i can channelize my skills and learning
+                        experiences.
+                    </p>
+                    <div class="tab-title">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education </p>                  
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX/ML</span><br>Design Web/App Interfaces</li>
+                            <li><span>Web Development</span><br>Web App Development</li>
+                            <li><span>App Development</span><br>Design Web/App Interfaces</li>
+                            <li><span>Technical Languages</span><br><ul>
+                                <li>C++</li>
+                                <li>Java</li>
+                                <li>Python</li>
+                                <li>SQL</li>
+                                <li>Php</li>
+                                <li>CSS,JS,HTML</li>
+                            </ul></li>
+                        </ul>
+                    </div>
+                    <!-- Education -->
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>2020 - Ongoing</span><br>Graphic Era University</li>
+                            <li><span>Year</span><br>3rd Year</li>
+                            <li><span>Understanding of</span><br><ul>
+                                <li>Operating System</li>
+                                <li>Data Base Management</li>
+                                <li>Data Structure & Algorithms</li>
+                                <li>Web Development</li>
+                                <li>Machine Learnig</li>
+                                <li>OOPS</li>
+                            </ul></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Project section -->
+    
+    <div id="projects">
+        <div class="container">
+            <h1 class="sub-title">Projects</h1>
+            <div class="project-list">
+                <div>
+                    <i class="fa-solid fa-user-secret"></i>
+                    <h2>Email Spam Classifier</h2>
+                    <p>Created Using python And ML technique </p>
+                    <a href="https://github.com/Amit-2024/Email-spam-classifier" target="_blank">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-laptop-code"></i>
+                    <h2>Credit Card Fraud Detection</h2>
+                    <p>Created Using python and logistic regression</p>
+                    <a href="https://github.com/Amit-2024/Credit-Card-fraud-detection" target="_blank">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-sitemap"></i>
+                    <h2>Music Website</h2>
+                    <p>Using HTML CSS JS</p>
+                    <a href="https://github.com/Amit-2024/Music-Website" target="_blank">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--    Portfolio  -->
+    <div id="Portfolio">
+        <div class="container">
+            <h1 class="sub-title">Connect Me</h1>
+            <div class="connect-me">
+                <div class="connect">
+                    <img src="images/work-1.png" >
+                    <div class="layer">
+                        <h3>LinkedIn</h3>
+                        <p>Connect Me on Linkedin</p>
+                        <a href="https://www.linkedin.com/in/amit-semwal-1a8008217/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="connect">
+                    <img src="images/work-2.png" >
+                    <div class="layer">
+                        <h3>GitHub</h3>
+                        <p>Connect Me on Linkedin</p>
+                        <a href="https://github.com/Amit-2024?tab=repositories" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="connect">
+                    <img src="images/work-3.png" >
+                    <div class="layer">
+                        <h3>LinkedIn</h3>
+                        <p>Connect Me on Linkedin</p>
+                        <a href="https://leetcode.com/amit2024/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+
+    <!-- Contact -->
+    <div id="Feedback">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">More Info</h1>
+                    <a class="btn btn1" href="images/my-cv.pdf" download>Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="your name" required>
+                        <input type="email" name="email" placeholder="your email" required>
+                        <textarea name="message" rows="10" placeholder="your message"></textarea>
+                        <button type="submit" class="btn btn1">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>Thanks for your kind visit!</p>
+        </div>
+
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks ){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxt5MC-aH6ZHZB2FLks9uoAunJ3PV2o_Ljhc_7ehzKdUPwznGfs9Kez7q2YdlmsGRN6sw/exec'
+        const form = document.forms['submit-to-google-sheet']
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response =>{
+                msg.innerHTML = "Your form is submitted succesfully" 
+               setTimeout(function(){
+                msg.innerHTML = ""
+               },5000)
+               form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
